@@ -5,7 +5,7 @@
 Console.Clear();
 
 Console.WriteLine("Enter N");
-int N = int.Parse(Console.ReadLine());
+int N = int.Parse(Console.ReadLine()!);
 
 if(N > 1)
 {
