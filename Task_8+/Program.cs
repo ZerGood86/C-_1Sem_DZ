@@ -11,7 +11,7 @@ if(N > 1)
 {
     int x = N / 2;
     int count = 0;
-    if(count < x)
+    while(count < x)
     {
         int E = (count + 1) * 2;
         Console.Write(E + " ");
