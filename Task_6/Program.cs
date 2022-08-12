@@ -3,7 +3,7 @@
 Console.Clear();
 
 Console.WriteLine("Enter number");
-int number = int.Parse(Console.ReadLine());
+int number = int.Parse(Console.ReadLine()!);
 
 int x = number % 2;
 if(x == 0)
